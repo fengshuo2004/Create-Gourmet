@@ -13,7 +13,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.silvergold.gourmet.fluid.ModFluidTypes;
 import net.silvergold.gourmet.fluid.ModFluids;
 import net.silvergold.gourmet.item.ModItems;
 import net.silvergold.gourmet.item.specialitem.DreamyFoodItems;
@@ -33,7 +32,6 @@ public class Gourmet
         ModItems.register(modEventBus);
 
         ModFluids.register(modEventBus);
-        ModFluidTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

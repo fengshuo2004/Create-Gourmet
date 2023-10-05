@@ -22,7 +22,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.silvergold.gourmet.item.specialitem.DreamyFoodItems;
-import net.minecraftforge.client.event.RenderGuiOverlayEvent;
+import net.minecraftforge.client.event.RenderGameOverlayEvent;
 
 @Mod.EventBusSubscriber(modid = "gourmet")
 public class DreamEventHandler {
@@ -71,7 +71,7 @@ public class DreamEventHandler {
     }
 
     @SubscribeEvent
-    public static void renderOverlay(RenderGuiOverlayEvent.Post event) {
+    public static void renderOverlay(RenderGameOverlayEvent.Post event) {
         Player player = Minecraft.getInstance().player;
         float alpha = 0.0f;
         if (player != null) {
