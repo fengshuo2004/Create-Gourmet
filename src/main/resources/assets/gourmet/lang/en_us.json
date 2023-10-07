@@ -58,8 +58,10 @@
   "item.gourmet.carrot_slices": "Carrot Slices",
 
   "fluid_type.gourmet.seed_oil": "Seed Oil",
+  "fluid.gourmet.seed_oil": "Seed Oil",
   "item.gourmet.seed_oil_bottle": "Seed Oil Bottle",
   "fluid_type.gourmet.batter": "Batter",
+  "fluid.gourmet.batter": "Batter",
   "item.gourmet.batter_bucket": "Batter Bucket",
 
   "item.gourmet.raw_potato_fry": "Raw Potato Fry",
